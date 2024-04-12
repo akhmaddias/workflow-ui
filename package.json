@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "shadow-cljs -A:dev watch app"
+    "dev": "shadow-cljs -A:dev watch app",
+    "release": "shadow-cljs -A:dev release app"
   },
   "private": true,
   "devDependencies": {
